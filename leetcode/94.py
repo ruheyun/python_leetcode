@@ -11,5 +11,19 @@ class TreeNode:
         
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        pass
+        ans = []
+        def dfs(root):
+            if root is None: return
+            dfs(root.left)
+            nonlocal ans
+            ans.append(root.val)
+            dfs(root.right)
+        
+        dfs(root)
+        return ans
+
+"""
+时间复杂度：O(n)
+空间复杂度：O(n)
+"""
         
