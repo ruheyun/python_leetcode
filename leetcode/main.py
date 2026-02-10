@@ -1,8 +1,8 @@
-from n_110 import Solution
+from n_121 import Solution
 
 
 sol = Solution()
 
-result = sol.isBalanced([3,9,20,null,null,15,7])
+result = sol.maxProfit([7,6,4,3,1])
 
 print(result)
