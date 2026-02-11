@@ -1,8 +1,8 @@
-from n_121 import Solution
+from n_14 import Solution
 
 
 sol = Solution()
 
-result = sol.maxProfit([7,6,4,3,1])
+result = sol.longestCommonPrefix(["dog","racecar","car"])
 
 print(result)
