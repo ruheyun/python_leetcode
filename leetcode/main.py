@@ -1,8 +1,8 @@
-from n_26 import Solution
+from n_16 import Solution
 
 
 sol = Solution()
 
-result = sol.removeDuplicates([0,0,1,1,1,2,2,3,3,4])
+result = sol.threeSumClosest([-1,2,1,-4], 1)
 
 print(result)
