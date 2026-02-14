@@ -1,8 +1,8 @@
-from n_16 import Solution
+from n_1512 import Solution
 
 
 sol = Solution()
 
-result = sol.threeSumClosest([-1,2,1,-4], 1)
+result = sol.numIdenticalPairs_([1,2,3,1,1,3])
 
 print(result)
