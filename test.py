@@ -10,11 +10,13 @@
 # print(ext_gcd(1848, 701))
 
 
-import numpy as np
-a = np.arange(24).reshape(2, 3, 4)
-print(f'原数组：{a}，形状为：{a.shape}')
-b = np.rollaxis(a, 2, 0)
-print(f'b数组为：{b}, 形状为：{b.shape}')
-c = a.reshape(4, 2, 3)
-print(f'c数组为：{c}, 形状为：{c.shape}')
+# import numpy as np
+# a = np.arange(24).reshape(2, 3, 4)
+# print(f'原数组：{a}，形状为：{a.shape}')
+# b = np.rollaxis(a, 2, 0)
+# print(f'b数组为：{b}, 形状为：{b.shape}')
+# c = a.reshape(4, 2, 3)
+# print(f'c数组为：{c}, 形状为：{c.shape}')
+
+print(int(True))
 
