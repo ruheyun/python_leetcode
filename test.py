@@ -18,5 +18,8 @@
 # c = a.reshape(4, 2, 3)
 # print(f'c数组为：{c}, 形状为：{c.shape}')
 
-print(int(True))
+# print(int(True))
 
+customers = [1,0,1,2,1,1,7,5]
+grumpy = [0,1,0,1,0,1,0,1]
+print(sum(customers[grumpy == 0]))
