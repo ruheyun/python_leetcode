@@ -33,3 +33,4 @@ solution = Solution2()
 list = solution.twoSum([2, 4, 1, 7, 0], 5)
 
 print(list)
+# c测试
